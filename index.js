@@ -29,7 +29,7 @@ app.get("/category/:name", (req, res) => {
 })
 
 app.listen(Port, () => {
-    console.log("server is running", Port);
+    console.log("server practice is running", Port);
 });
 //Export the Express API
 module.exports = app;
